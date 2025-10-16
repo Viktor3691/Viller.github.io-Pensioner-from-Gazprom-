@@ -1,0 +1,69 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.body {
+  inline-size: 1200px;
+  margin: 0 auto;
+  background: #222feb;
+}
+.container {
+  inline-size: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #ffffff;
+  border-inline-end: 50px solid #d9e6f3;
+  border-inline-start: 50px solid #d9e6f3;
+}
+.text_container {
+  margin: 0 auto;
+  inline-size: 100%;
+  padding: 20px;
+  font-size: 18px;
+  box-shadow: 10px 5px 10px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.ramka {
+  font-size: 16px;
+  background-color: rgb(235, 241, 245);
+  color: #000;
+  font-family: "Courier New", Courier, monospace;
+  inline-size: 100%;
+  margin: 20px 0 20px 0;
+}
+
+span {
+  color: rgb(201, 23, 23);
+}
+
+.tab {
+  margin: 0 auto; /* таблица расположена по центру */
+  padding: 0px;
+  inline-size: 80%;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+.tab caption {
+  font-weight: 600;
+}
+.tab td {
+  padding: 6px;
+  border: 1px solid #7e5a25;
+  vertical-align: top;
+  text-align: start;
+  font-size: 15px;
+}
+.tab th {
+  padding: 6px;
+  border: 1px solid #7e5a25;
+  vertical-align: top;
+  text-align: start;
+  font-size: 15px;
+}
+.pages {
+  margin: 20px auto;
+  border: 5px solid rgb(188, 204, 248);
+  width: 100%;
+}
